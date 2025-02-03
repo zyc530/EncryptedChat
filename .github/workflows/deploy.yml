@@ -37,7 +37,7 @@ jobs:
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: "zyc530-encryptedchat"
+          project: "zyc530-encryptedch-24"
           entrypoint: "jsr:@deno/nextjs-start"
           root: "."
           include: .next, public
